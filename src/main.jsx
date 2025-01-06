@@ -6,11 +6,15 @@ import { createRoot } from 'react-dom/client'
 //import MyComponent from './lec 31-12/combined';
 //import Purefunc from "./lec 31-12/purefunc";
 // import MyButton3 from './lec 31-12/purefunc2';
-import FunComp1 from './lec 31-12/hookcomp1';
+//import FunComp1 from './lec 31-12/hookcomp1';
+import StateExample4 from './lec 06-01/hookexample4';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <FunComp1/>
+    <StateExample4/>
+    {/* <StateExample3/> */}
+    {/* <StateExample2/> */}
+    {/* <FunComp1/> */}
     {/*<MyComponent/>*/}
     {/* <Component1/> */}
     {/*<InputTest/>*/}
